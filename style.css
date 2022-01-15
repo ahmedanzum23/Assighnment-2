@@ -1,0 +1,24 @@
+.part-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.part-1 img{
+width: 300px;
+padding-right: 10px;
+}
+
+.big-camera{
+    padding-right: 400px;
+    
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
