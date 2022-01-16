@@ -1,3 +1,15 @@
+body{
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+.s{
+    padding-left: 130px;
+}
+
+
 .part-1{
     display: flex;
     justify-content: center;
@@ -20,14 +32,14 @@ padding-right: 10px;
     transition: transform 2s ease-in-out;
 }
 
-/* .anchor-button{
+.anchor-button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-} */
+} 
 
 
 
@@ -94,15 +106,19 @@ padding-right: 10px;
       text-align: center;
       margin-top: 50px;
   }
+
+  .center:hover{
+      color: aqua;
+  }
  
  
  
-  .anchor-button{
+  .anchor{
      text-decoration: none;
-     background: linear-gradient(45deg, lightsalmon, tomato);
-     padding: 10px 40px;
+     background: linear-gradient(45deg, lightsalmon, tomato);;
+     padding: 10px 10px;
      border-radius: 5px;
-     color: white;
+     color:black;
      font-weight: 700;
  }
 
