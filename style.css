@@ -10,15 +10,89 @@ padding-right: 10px;
 }
 
 .big-camera{
-    padding-right: 400px;
+    padding-right: 200px;
     
 }
 
-.anchor-button{
+/* .anchor-button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-}
+} */
+
+
+
+
+.fas.star{
+    color:#FB8200
+ 
+ }
+ 
+ .fas.empty{
+     /* color: #f97c00ad; */
+     color: #333
+ }
+ 
+ .fas{
+     font-size: 12px;
+ }
+  .rating{
+      padding-left: 5px  ;
+  }
+ 
+ 
+  
+ 
+  .photo img{
+     width: 300px;
+     height: 200px;
+     left: 210px;
+     top: 1050.29px; 
+     border-radius: 10px;
+  
+  }
+ 
+ 
+ 
+  .photo-frame{
+      width: 300px;
+      height: 400px;
+      border: 2px solid gray;
+       /* border-radius: 20px;
+      background: #FFFFFF;
+ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ border-radius: 5px;  */
+ 
+  }
+ 
+ 
+  .popular-collection{
+      /* display: flex;
+      flex-wrap: wrap; */
+      /* justify-content: center; */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 5em;
+     padding-left: 50px;
+     padding-right: 10px;
+      
+  }
+ 
+  .center{
+      padding-left: 50%;
+      margin-bottom: 50px;
+  }
+ 
+ 
+ 
+  .anchor-button{
+     text-decoration: none;
+     background: linear-gradient(45deg, lightsalmon, tomato);
+     padding: 10px 40px;
+     border-radius: 5px;
+     color: white;
+     font-weight: 700;
+ }
