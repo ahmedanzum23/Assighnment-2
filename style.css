@@ -207,17 +207,21 @@ footer{
     .bonus{
         grid-template-columns:repeat(1,1fr) ;
         
-       width: 5%;
+       width: 1rem;
         
-    }
+    } 
 
     .end{
-        width: 60%;
+        width: 90%;
     }
+
+    /* .photo-album-2{
+        grid-template-columns: repeat(1,1fr);
+    } */
 }
 
 
-
+/* for tabs */
 @media only screen and (min-width:688px) and (max-width:992px){
 
     .popular-collection{
