@@ -95,7 +95,7 @@ padding-right: 10px;
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-gap: 5em;
-     padding-left: 50px;
+     /* padding-left: 50px; */
      padding-right: 10px;
       
   }
@@ -120,6 +120,7 @@ padding-right: 10px;
      border-radius: 5px;
      color:black;
      font-weight: 700;
+   
  }
 
 
@@ -185,5 +186,47 @@ footer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+
+
+/* media queries */
+
+/* media queries for mobile devices */
+
+@media only screen and (max-width:688px){
+    .popular-collection{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+
+    .part-1{
+        grid-template-columns: repeat(1,1fr);
+        width: 10%;
+    }
+
+    .bonus{
+        grid-template-columns:repeat(1,1fr) ;
+        
+       width: 5%;
+        
+    }
+
+    .end{
+        width: 60%;
+    }
 }
 
+
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    .popular-collection{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .anchor{
+        display: none;
+    }
+}
+
+   
